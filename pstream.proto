@@ -1,0 +1,7 @@
+syntax = "proto3";
+package pstream;
+
+// Header is a message header.
+message Header {
+  fixed32 message_len = 1;
+}
